@@ -24,7 +24,7 @@ $file = new MyFileObject('data.txt');
 //$file->filename = 'data.txt';
 //$file->filename = 'asdf.txt';
 var_dump($file->isFile());
-var_dump($file->filename);
+//var_dump($file->filename);
 
 /**
  * MyFileObject : Class
