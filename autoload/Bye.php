@@ -1,6 +1,6 @@
 <?php
 
-class Hi
+class Bye
 {
 
     /**
@@ -8,6 +8,6 @@ class Hi
      */
     public function __construct()
     {
-        echo 'hi';
+        echo '<h1>bye</h1>';
     }
 }
