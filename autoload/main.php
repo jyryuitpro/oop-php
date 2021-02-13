@@ -1,11 +1,6 @@
 <?php
-//require_once 'Hi.php';
-function autoloader($path)
-{
-    $path = $path.'.php';
-    var_dump("path : {$path}");
-    require_once $path;
-}
-spl_autoload_register('autoloader');
-new Hi();
-new Bye();
+require_once 'autoload.php';
+use \greeting\en\Hi as HiEn;
+use \greeting\ko\Hi as HiKo;
+new HiEn();
+new HiKo();
