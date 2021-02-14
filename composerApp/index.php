@@ -1,6 +1,6 @@
 <?php
-//require_once __DIR__.'/vendor/monolog/monolog/src/Monolog/Logger.php';
-//require_once __DIR__.'/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php';
+//require_once __DIR__.'/vendor/monolog/monolog/source/Monolog/Logger.php';
+//require_once __DIR__.'/vendor/monolog/monolog/source/Monolog/Handler/StreamHandler.php';
 require_once __DIR__.'/vendor/autoload.php';
 
 use Monolog\Logger;
