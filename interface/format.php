@@ -2,7 +2,7 @@
 
 interface ContractInterface
 {
-    public function promiseMethod(array $param): int;
+//    public function promiseMethod(array $param): int;
 }
 
 interface ContractInterface2
@@ -10,7 +10,8 @@ interface ContractInterface2
     public function promiseMethod2(array $param): int;
 }
 
-class ConcreateClass implements ContractInterface, ContractInterface2
+//class ConcreateClass implements ContractInterface, ContractInterface2
+class ConcreateClass
 {
     public function promiseMethod(array $param): int
     {
