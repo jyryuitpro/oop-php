@@ -8,7 +8,7 @@ class ParentClass
         echo 'Parent';
     }
 
-    final function b()
+    public function b()
     {
         echo 'Parent B';
     }
